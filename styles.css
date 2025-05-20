@@ -43,3 +43,21 @@ footer {
     background: #333;
     color: white;
 }
+.click-me-btn {
+    font-size: 18px;
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 0.3s ease;
+}
+
+.click-me-btn:hover {
+    background-color: #218838;
+}
